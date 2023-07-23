@@ -47,12 +47,14 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'Budget Tracker',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 30,
-            fontFamily: 'Trajan Pro',
+        title: Center(
+          child: Text(
+            'Budget Tracker',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
+              fontFamily: 'Trajan Pro',
+            ),
           ),
         ),
         backgroundColor: Colors.blueAccent,
