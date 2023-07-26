@@ -117,11 +117,6 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 );
-
-                // Handle the newCategory if needed (optional)
-                if (newCategory != null) {
-                  // You can perform additional actions with the newCategory here if needed.
-                }
               },
             ),
           ],
