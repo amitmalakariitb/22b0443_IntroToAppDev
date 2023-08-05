@@ -1,4 +1,4 @@
-# 3 unique features i added
+# 3 unique features I added
 
 1. edit expense: it also edits the expense in database.
 2.  chart: make a piechart of expenses according to its category.
